@@ -12,3 +12,7 @@ Run container:
 
 Update nod32 antivirus bases:
 >docker exec nod32update-mirror php update.php
+
+
+Open in your browser:
+>http://<youip>:8084
