@@ -1,0 +1,93 @@
+New version is available on server [%s]!
+Please,check login/password for using SMTP authorization.
+Your script has been successfully updated to version %s!
+You already have actual version of script! No need to update!
+Update server is down!
+Config file does not exist!
+Can't read config file! Check the file and its permissions!
+This script doesn't support your OS. Please, contact developer!
+Error in timezone settings! Please, check your config file!
+Please, check set up of log_rotate_size in your config file!
+Please, check set up of log_rotate_qty in your config file!
+Please, check set up of log_type in your config file!
+Please, check set up of WWW directory in your config file!
+You didn't set up email address of sender/recipient or it is wrong.Please, check your config file.
+Please, check SMTP host/port for using SMTP server in your config file.Or disable SMTP server if you don't wanna use it.
+Please, check login/password for using SMTP authorization.
+Pattern directory is not readable. Check your permissions!
+Log directory is not writable. Check your permissions!
+Web directory is not writable. Check your permissions!
+Incorrect value of self_update parameter. Must be 0,1 or 2!
+Language file [%s.lng] does not exist!
+Language file [%s] is corrupted!
+Created hard link for %s
+Copied file %s
+From %s downloaded %s [%s] [%s/s]
+Error download url %s
+Total size database: %s
+Total downloaded: %s
+Average speed: %s/s
+Deleted files: %s
+Deleted folders: %s
+Error while parsing update.ver from %s
+Downloading %d files
+All mirrors is down!
+Log file was cutted due rotation...
+Run script %s
+Total working time: %s
+Stop script.
+Keys file is empty!
+Use valid key [%s:%s] Expiration date %s
+Invalid key [%s:%s]
+Unhandled exception [%s]
+No working keys were found!
+Link wasn't found [%s]
+Link was found [%s]
+Found keys: %s
+Found valid key [%s:%s] Expiration date %s
+Found invalid key [%s:%s]
+Found links: %s
+Begining search at %s
+File %s doesn't exist!
+[link] doesn't set up in %s file!
+Generating index.html...
+ESET NOD32 update server
+Database version
+Database size
+Last update
+Version %d
+Version
+Present versions
+Present platforms
+Present languages
+Last execution of the script
+Used login
+Used password
+Expiration date
+Your database is relevant %s
+Your database was successfully updated to %s
+The latest database %s was found on %s
+No actual update servers were found.
+Your database has not been updated!
+Your database was successfully updated from %s to %s
+Total size for all databases: %s
+Total downloaded for all databases: %s
+Average speed for all databases: %s/s
+n/a
+Generating html...
+Testing key [%s:%s]
+Validating key [%s:%s] for version %s
+The script has been stopped!
+Checking mirror %s with key [%s:%s]
+Extracting file %s to %s
+Key [%s:%s:%s:%s] already exists
+Found expired key [%s:%s] Expiration date %s
+Downloading %s [%s Bytes]
+Error while downloading file %s [%s]
+Unrar not exists at %s
+Unrar not executable at %s
+Running %s
+Your version of database is relevant %s
+Mirror %s active
+Mirror %s inactive
+Try next mirror %s

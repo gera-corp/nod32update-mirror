@@ -1,0 +1,212 @@
+20210130
+  Refactoring:
+   - Multi-threaded download function
+   - Initialization of the Mirror class
+   - The logic of the main function run_script
+
+  Changed:
+   - Key and mirror verification
+   - Formation of a list of working mirrors with the current version
+   - File upload methods: single-threaded and multi-threaded
+
+  Fixed:
+   - Minor edits
+
+20201122
+ Added:
+  - Support version: ESET Endpoint 8, ESET 14
+ Deleted:
+  - filter
+  - 4, 6-8, 11 version configuration
+ Fixed:
+  - creating symlinks
+
+20200711
+ Added:
+  - Support EES/EEA
+ Deleted:
+  - Filter Package by lang, type
+
+20191008
+ Fixed:
+  - Support PHP 7.3
+ Removed:
+  - *.ru.eset.com mirror
+ Changed:
+  - Unrar binary need config only for windows
+
+20190727
+ Added:
+  - 2 mirrors
+ Fixed:
+  - No created folder logs at first start
+  - Remove tmp update.ver files when key invalid
+
+20190309:
+ Removed:
+  - Mirror::exp_nod method
+
+20180711:
+ Added:
+  - Tools::get_file_mimetype method
+ Fixed:
+  - get file mimetype for update.ver by fileinfo module
+
+20180617:
+ Fixed:
+  - invalid keys removing
+
+20180530:
+ Added:
+  - Proxy types support(http, socks4, socks4a, socks5)
+
+20180305:
+ Changed:
+  - Now configuration file is a full ini-compatible with sections
+  - Rewrited core-classes
+  - Now script restart after self-update no needed
+ Added:
+  - Exceptions
+
+20180222:
+ Added:
+  - Mirror::$updated - flag indicates result of db version updates
+ Fixed:
+  - Tools::compare_files - using for compare files size
+
+20180214:
+ Fixed:
+  - Update version filter(update_version_filter), multiset work now
+ Added:
+  - To config param update_version_filter added rel-bat
+
+20180129:
+ Fixed:
+  - Nod32ms::generate_html function
+ Changed:
+  - For each version show it's key at html-page
+
+20180126:
+ Changed:
+  - All network functions replaced with curl(Tools::download_file)
+
+20171228:
+ Added:
+  - 11 version support
+
+20171115:
+ Added:
+  - threads for download limitation
+
+20171114:
+ Changed:
+  - fix_timestamp function moved Nod32ms -> Mirror
+ Fixed:
+  - last update time generation for each db
+
+20171028:
+ Changed:
+  - language files moved from ini -> lng
+
+20171026:
+ Fixed:
+  - multidownload function
+ Added:
+  - translations
+  - download speed limit
+ Changed:
+  - rewrited Mirror class
+
+20171025:
+ Added:
+  - memory limit parameter to config
+  - translations
+  - debug run script
+  - debug strings to code
+ Changed:
+  - code rewrited
+  - appended new comments to readme file
+  - get_DB_version moved from Mirror to Tools class
+
+20171021:
+ Added:
+  - To configuration file unrar binary path & debug update(saving update.ver files)
+  - Messages for unrar binary and their translations
+
+20171012:
+ Changed:
+  - Configuration file now at ini format
+ Removed:
+  - Many old code
+
+20171010:
+ Fixed:
+  - Saving all update.ver files
+  - Calculation of average speeds of download
+ Added:
+  - Scan all mirror
+
+1.0.20170502:
+ Fixed:
+  - Extract function
+  - Autofind key function
+
+1.0.20170429:
+ Fixed:
+  - Write key function
+ Added:
+  - Translation strings
+  - Writing more messages to log
+
+1.0.20170428:
+ Fixed:
+  - Validation function
+  - Extract function
+ Added:
+  - Translation strings
+  - Writing more messages to log
+
+1.0.20170427:
+ Fixed:
+  - Function name
+
+1.0.20170426:
+ Added:
+  - Autofind unrar in Unix OS
+
+1.0.20170422:
+ Fixed:
+  - Log rotate calculation method
+  - Cleanups
+
+1.0.20170420:
+ Fixed:
+  - Download signatures
+
+1.0.20170418:
+ Added:
+  - If language file corrupt program not exit and use default(english) translation
+ Fixed:
+  - Translation files
+
+1.0.20170417:
+ Removed:
+  - Debug info
+ Added:
+  - Translation
+
+1.0.20170416:
+ Edited:
+  - Edited download signature method - now method splited for multiple methods
+ Fix:
+  - Time to generate databases decreased
+
+1.0.20170403:
+ Fixed:
+  - In README.md - for all EAV and ESS map
+
+1.0.20170331:
+ Fixed:
+  - Downloading all files in all dbs
+ Removed:
+  - Check all files in all dbs after downloading(unneded now)
