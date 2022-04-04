@@ -15,4 +15,4 @@ Update nod32 antivirus bases:
 
 
 Open in your browser:
->http://<youip>:8084
+>http://youip:8084
