@@ -4,7 +4,7 @@ ESET Nod32 Updates Mirror based on nginx:stable-alpine and php script https://gi
 
 Build image container:
 >docker build -t gerain/nod32update-mirror .
-docker build -t gerai
+>docker build -t gerai
 
 Run container:
 >docker run -d -p 8084:80 -v nod32update-mirror:/nod32update --restart always --name nod32update-mirror gerain/nod32update-mirror
