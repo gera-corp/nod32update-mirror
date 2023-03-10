@@ -9,10 +9,16 @@ Build image container:
 Run container:
 >docker run -d -p 8084:80 -v nod32update-mirror:/nod32update --restart always --name nod32update-mirror gerain/nod32update-mirror
 
+add cronjob on docker-host for update antivirus bases:
+```
+# crontab -e
+0 */1 * * * docker exec nod32update-mirror php update.php
+```
 
 Update nod32 antivirus bases:
 >docker exec nod32update-mirror php update.php
 
 
-Open in your browser:
+Open in browser:
 >http://youip:8084
+
