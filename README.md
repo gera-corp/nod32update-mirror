@@ -7,7 +7,7 @@ Build image container:
 
 
 Run container:
->docker run -d -p 8084:80 -v nod32update-mirror:/nod32update --restart always --name nod32update-mirror gerain/nod32update-mirror
+>docker run -d -p 8084:80 -v nod32update-mirror:/nod32update/www --restart always --name nod32update-mirror gerain/nod32update-mirror
 
 
 Update nod32 antivirus bases:
