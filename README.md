@@ -21,5 +21,11 @@ Update nod32 antivirus bases:
 docker exec nod32update-mirror php update.php
 ```
 
+>you can add cronjob to docker-host to update antivirus databases every two hours:
+>```sh
+>crontab -e
+>```
+>0 */2 * * * docker exec nod32update-mirror php update.php
+
 Open in your browser:
 >http://youip:8084
